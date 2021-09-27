@@ -1,14 +1,14 @@
 
 # Gatsby FuncJam '21
 
-This example shows how to build a form with [react-hook-form](https://react-hook-form.com/) that submits to a Gatsby Function.
+This example shows how to build a small weather dashboard with  react-google-charts ,react-bootstrap and weather API that uses Gatsby Function.
 
 1.  **Start developing.**
 
     To get started clone this repo locally and run `npm install` to add all necessary packages.
+    File package.json has all list of required packages. Use the commands below to install and run this app
 
     ```shell
-    cd examples/functions-basic-form
     npm install
     npm run develop
     ```
@@ -17,7 +17,6 @@ This example shows how to build a form with [react-hook-form](https://react-hook
 
     Your site is now running at http://localhost:8000! You can use the UI on the index page to test the functions or directly access them at http://localhost:8000/api/form
 
-    Try editing the function in `src/api/form.ts` or form at `src/pages/index.js`
 
 3.  **Deploy**
 
@@ -26,9 +25,13 @@ You can deploy this example on Gatsby Cloud by copying the example into a new re
 
 ## Submission Checklist
 
-- [ ] Add installation documentation to the README
-- [ ] Update the `/api` folder with your function
-- [ ] Submit your theme at https://gatsbyjs.com/func-jam-21/
+- [✅] Add installation documentation to the README
+- [✅] Update the `/api` folder with your function
+- [✅] Submit your theme at https://gatsbyjs.com/func-jam-21/
+
+## Website
+
+![Screenshot](dashboard.PNG)
 
 ## Helpful Links
 

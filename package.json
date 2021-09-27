@@ -1,9 +1,9 @@
 {
-  "name": "form",
+  "name": "weather_dashboard",
   "version": "1.0.0",
   "private": true,
-  "description": "form",
-  "author": "Kyle Mathews",
+  "description": "weather dashboard",
+  "author": "Ross Carvalho , Palak Keni",
   "keywords": [
     "gatsby"
   ],
@@ -15,9 +15,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "bootstrap": "^5.1.1",
     "gatsby": "next",
     "react": "^17.0.1",
+    "react-bootstrap": "^2.0.0-rc.0",
     "react-dom": "^17.0.1",
+    "react-google-charts": "^3.0.15",
     "react-hook-form": "^7.5.2"
   }
 }
